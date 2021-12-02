@@ -1,0 +1,66 @@
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #00FF7F;
+    padding: 10px;
+    background-color: #00FF7F;
+    text-align: center;
+}
+
+.font {
+    font-family: Georgia;
+}
+
+.tit {
+    text-align: center;
+    font-family: Georgia;
+}
+
+.p {
+    font-size: medium;
+    font-family: Georgia;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.a {
+    border-collapse: collapse;
+    background: #00FF7F;
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.b {
+    border: 1px solid black;
+    width: 50% !important;
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.c {
+    border: 1px solid black;
+    background: #00FF7F;
+    width: 50% !important;
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.card {
+    width: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin: auto;
+}
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.conta {
+    padding: 2px 16px;
+}
+

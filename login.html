@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+      <link rel="shortcut icon" href="ificon.png" type="image/png">
+    <link rel="icon" href="ificon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="content first-content">
+            <div class="first-column">
+                <h2 class="title title-primary">Sistema de Administração de Planos de Trabalho Docente</h2>
+                <h3 class="title title-primary">Usuario: Marcio Torres</h3>
+                <p class="description description-primary"></p>
+                <button id="signin" class="btn btn-primary"><a href="index.html"> Sair do Sistema</a></button>
+            </div>    
+            <div class="second-column">
+                <div class="box image">
+                    <img src="ificon.png" alt="" width="72" height="72">
+                </div>
+                <p class="description description-second">Escolha a função que irá desempenhar no sistema:</p>
+                <form class="form">
+                    <label class="label-input" for="">
+                        <input type="checkbox" onclick="onlyOne(this)" name="check"  />Professor
+                        <input type="checkbox" onclick="onlyOne(this)"  name="check"  />Coordenador de Curso
+                    </label>
+                    <button class="btn btn-second"><a href="pdt.html"> avançar </a></button>       
+                </form>
+            </div>
+        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/box.js"></script>
+</body>
+</html>
